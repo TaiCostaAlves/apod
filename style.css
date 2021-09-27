@@ -1,0 +1,128 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo:ital@1&family=Kavivanar&family=M+PLUS+1p:wght@500&family=Orbitron&family=Russo+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo:ital@1&family=Kavivanar&family=M+PLUS+1p:wght@500&family=Russo+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo:ital@1&family=Kavivanar&family=M+PLUS+1p:wght@500&display=swap');
+        body {
+            background-image: linear-gradient(to bottom, #0D0D0D, #8C3414, #CB7017, #D99036, #EFB54A);
+            background-attachment: fixed;
+        }
+
+        header {
+            display: flex;
+            background-color: rgb(0, 0, 0, 0.6);
+            border-radius: rgb(148, 56, 5) solid 3px;
+            border-radius: 5px;
+            color: #ECD494;
+            height: 100px;
+            margin-top: 4px;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            font-family:'Orbitron';
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        
+        #date,
+        #enviar {
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            background-image: linear-gradient(to right, #7C3811, #C18026, #EECD70);
+            font-family: 'Archivo';
+            font-weight: normal;
+            font-style: normal;
+                    }
+
+                    #escolha {
+
+                        display: flex;
+            background-color: rgb(0, 0, 0, 0.6);
+            border-radius: 5px;
+            color: #ECD494;
+            width: 500px;
+            height: 40px;
+            
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+            font-family:'Orbitron';
+            font-weight: normal;
+            font-style: normal;
+            margin: auto;
+            margin-top: 20px;
+             }    
+
+        #resolucao, #video {
+            align-items: center;
+            justify-content: center;
+            margin:auto
+        }
+        .container-card-big {
+            display: flex;
+            background-color: rgb(0, 0, 0, 0.6);
+            border-radius: rgb(148, 56, 5) solid 3px;
+            border-radius: 5px;
+            color: #ECD494;
+            width: 330px;
+            height: 40px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .card-small {
+            display: flex;
+            width: 950px;
+            height: 400px;
+            background-color: rgb(0, 0, 0, 0.4);
+            border-radius: 10px ;
+            font-family: 'Archivo';
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.5;
+            padding: 12px;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .render {
+            
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0, 0.6);
+            border-radius: rgb(148, 56, 5) solid 3px;
+            border-radius: 5px;
+            padding: 20px;
+            vertical-align: middle;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 15px;
+
+        }
+
+        footer {
+
+            display: flex;
+            background-color: rgb(0, 0, 0, 0.1);
+            border-radius: rgb(148, 56, 5) solid 3px;
+            border-radius: 5px;
+            color: #010101;
+            height: 40px;
+            margin-top: 60px;
+            font-family: 'Archivo';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+   
