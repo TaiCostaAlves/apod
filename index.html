@@ -12,12 +12,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo:ital@1&family=Kavivanar&family=M+PLUS+1p:wght@500&family=Russo+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo:ital@1&family=Kavivanar&family=M+PLUS+1p:wght@500&display=swap');
         body {
-            background-image: linear-gradient(to bottom, #0D0D0D, #8C3414, #CB7017, #D99036, #EFB54A);
-            background-attachment: fixed;
+            
+            background-image: url(./imagens/ceu.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
         }
 
         header {
             display: flex;
+            flex-direction: row;
             background-color: rgb(0, 0, 0, 0.6);
             border-radius: rgb(148, 56, 5) solid 3px;
             border-radius: 5px;
@@ -32,8 +36,27 @@
             font-style: normal;
 
         }
+        #home {
+            display: flex;
+            flex-direction: row;
+           text-align: left;
+            margin-left: 10px;
+            font-family: 'Orbitron';
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+        }
+        #sobre{
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            margin-left: 10px;
+            font-family: 'Orbitron';
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal; 
 
-        
+        }
         #date,
         #enviar {
             width: 150px;
@@ -46,15 +69,13 @@
             font-style: normal;
                     }
 
-                    #escolha {
-
-                        display: flex;
+             #escolha {
+              display: flex;
             background-color: rgb(0, 0, 0, 0.6);
             border-radius: 5px;
             color: #ECD494;
             width: 500px;
             height: 40px;
-            
             font-size: 25px;
             justify-content: center;
             align-items: center;
@@ -66,9 +87,21 @@
              }    
 
         #resolucao, #video {
+            width: 550px;
+            height: 550px;
             align-items: center;
             justify-content: center;
             margin:auto
+        }
+        #titulo {
+            font-size: 25px;
+            font-style: oblique;
+            font-weight: bold;
+        }
+        .principal {
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
         }
         .container-card-big {
             display: flex;
@@ -87,16 +120,18 @@
 
         .card-small {
             display: flex;
-            width: 950px;
-            height: 400px;
+            width: 550px;
+            height: 540px;
             background-color: rgb(0, 0, 0, 0.4);
+            color: #ECD494;
             border-radius: 10px ;
             font-family: 'Archivo';
-            font-size: 20px;
+            font-size: 15px;
             align-items: center;
             justify-content: center;
-            line-height: 1.5;
-            padding: 12px;
+            text-align: justify;
+            line-height: 1.8;
+            padding: 15px;
             flex-direction: column;
             margin: auto;
             margin-top: 30px;
@@ -109,7 +144,8 @@
             background-color: rgb(0, 0, 0, 0.6);
             border-radius: rgb(148, 56, 5) solid 3px;
             border-radius: 5px;
-            padding: 20px;
+            width: 555px;
+            height: 540px;
             vertical-align: middle;
             justify-content: center;
             align-items: center;
@@ -124,7 +160,7 @@
             background-color: rgb(0, 0, 0, 0.1);
             border-radius: rgb(148, 56, 5) solid 3px;
             border-radius: 5px;
-            color: #010101;
+            color: #ECD494;
             height: 40px;
             margin-top: 60px;
             font-family: 'Archivo';
@@ -140,6 +176,8 @@
 <body>
     <header>
         <h1>Reading The Sky</h1>
+        <h3 id="home"> Home</h3>
+        <h3 id="sobre"> About</h3>
     </header>
     <div class="container">
         <p id="escolha" > Choose your date:</p>
@@ -150,6 +188,7 @@
             <button id="enviar">To explore</button>
         
         </div>
+        <div class="principal">
        <div class="render">
             <img id="resolucao" alt="imagem de dia">
             <iframe id="video"></iframe>
@@ -158,6 +197,7 @@
             <h2 id="titulo"></h2>
             <p id="paragrafo"> </p>
         </div>
+    </div>
 
     </div>
     <footer>
