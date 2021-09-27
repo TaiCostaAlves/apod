@@ -23,7 +23,6 @@ $.ajax({
         }
     }
 })
-
 enviar.addEventListener("click",() => {
     $.ajax({
         url:`https://api.nasa.gov/planetary/apod?api_key=NS4WpN7XODwx5ORusnsIAR94Guq1ygoWAfKc9AMe&date=${date.value}`,
